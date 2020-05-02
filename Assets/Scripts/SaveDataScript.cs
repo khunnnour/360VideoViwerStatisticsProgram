@@ -76,7 +76,7 @@ public class SaveDataScript : MonoBehaviour
 			line += numRays.ToString();
 			/* - add space or semicolon based on position in matrix - */
 			// if % == 0, then start of new row (except skip first pixel)
-			if (pxIndex % boxDim.x == 0)
+			if (pxIndex % encodedTex.width == 0)
 			{
 				line += ";";
 			}

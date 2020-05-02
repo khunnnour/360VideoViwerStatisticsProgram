@@ -349,7 +349,7 @@ MonoBehaviour:
   sphereTex: {fileID: 2800000, guid: 55220b6d399cdbc4ea0a5e4572d05520, type: 3}
   rayLength: 1.5
   rayWeight: 0.5
-  boxDim: {x: 10, y: 6}
+  boxDim: {x: 9, y: 5}
 --- !u!1 &1190685286
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,7 +382,7 @@ MonoBehaviour:
   encodedTex: {fileID: 2800000, guid: 55220b6d399cdbc4ea0a5e4572d05520, type: 3}
   destination: Assets/Resources/InfoFiles/SaveFiles/
   filename: data.csv
-  saveInterval: 0.5
+  saveInterval: 0.2
 --- !u!4 &1190685288
 Transform:
   m_ObjectHideFlags: 0
